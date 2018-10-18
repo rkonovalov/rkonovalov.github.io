@@ -1,7 +1,7 @@
-<!-- JsonIgnore Mapping DTD.
+<!-- JsonIgnore mapping DTD.
 
 <!DOCTYPE config PUBLIC
-    "-//JsonIgnore/JsonIgnore Mapping DTD 3.0//EN"
+    "-//json/json-ignore mapping DTD 1.0//EN"
     "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
 
 An instance of this XML document may contain mappings for an arbitrary
