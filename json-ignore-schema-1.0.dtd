@@ -1,0 +1,33 @@
+<!-- JsonIgnore Mapping DTD.
+
+<!DOCTYPE config PUBLIC
+    "-//JsonIgnore/JsonIgnore Mapping DTD 3.0//EN"
+    "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+An instance of this XML document may contain mappings for an arbitrary
+number of classes. The class mappings may contain associations to classes
+mapped in the same document or in another document. No class may be
+mapped more than once. Each document may also contain definitions of an
+arbitrary number of queries, and import declarations of arbitrary classes.
+
+-->
+
+<!DOCTYPE config [
+        <!ELEMENT config (strategies)*>
+        <!ELEMENT rest-controller (strategies)*>
+        <!ATTLIST rest-controller
+                class-name CDATA #REQUIRED>
+
+        <!ELEMENT strategies (strategy)*>
+        <!ELEMENT strategy (filters)*>
+        <!ATTLIST strategy
+                attribute-name CDATA #REQUIRED
+                attribute-value CDATA #REQUIRED>
+        <!ELEMENT filters (filter)*>
+        <!ELEMENT filter (field)*>
+        <!ATTLIST filter
+                class CDATA #REQUIRED>
+        <!ELEMENT field (#PCDATA)>
+        <!ATTLIST field
+                name CDATA #REQUIRED>
+        ]>
