@@ -6,7 +6,7 @@ On this page you can find examples which will help using of module
   
 ## Session strategy filtration
   * [Single strategy filter](filter-strategy/README.md)
-  * [Strategies filter](filter-strategies/README.md)
+  * [Multiple strategies filter](filter-strategies/README.md)
   
 ## XML configured filtration
   * [XML file configuration](filter-file/README.md)
