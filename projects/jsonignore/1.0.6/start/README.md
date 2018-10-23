@@ -22,7 +22,3 @@ public class AppConfig extends WebMvcConfigurerAdapter {
 #Description
 * *ComponentScan*  annotation indicates Spring Framework on which folder scan components
 * *EnableJsonFilter* annotation enables Json Ignore filter. Without this annotation module won't process Rest responses 
-
-
-
-
