@@ -1,4 +1,4 @@
-# Getting started page
+# Getting started
 For activation of Json Ignore module just add next annotations
 
 ## Component scan and enable filter
