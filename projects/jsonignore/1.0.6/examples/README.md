@@ -14,4 +14,4 @@ On this page you can find examples which will help using of module
 ## Spring RestController filtration
   * [Filter of all responses in Spring controller](filter-controller/README.md)
 
-Additional [classes](./example-classes/README.md) used in this examples
+Additional sample [classes](./example-classes/README.md)
