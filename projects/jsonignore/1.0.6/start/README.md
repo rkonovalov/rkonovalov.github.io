@@ -8,6 +8,7 @@ For activation of Json Ignore module just add next annotations
 ```
 
 * Example 
+
 ```java
 @Configuration
 @EnableWebMvc
