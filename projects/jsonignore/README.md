@@ -3,7 +3,7 @@
 ## Description
 Lorem ipsum
 
-## vERSIONS
+## Versions
 * [1.0.6](1.0.6/README.md)
 
 
