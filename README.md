@@ -1,4 +1,4 @@
-## Projects
+## Main page
 
-* [Json ignore](./projects/jsonignore/README.md)
-* [Advanced logger](./projects/advancedlogger/README.md)
+# Projects
+* [Active projects](./projects/README.md)
