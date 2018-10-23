@@ -1,3 +1,5 @@
 ## Welcome to rkonovalov.github.io
 
-Lorem ipsum
+# Projects
+* [Json ignore](./projects/jsonignore/README.md)
+* [Advanced logger](./projects/advancedlogger/README.md)
