@@ -1,10 +1,17 @@
-# Examples page
+# Examples
+On this page you can find examples which will help using of module
 
-## Examples
-* Standard examples
-  * [Example 1](./01/README.md)
-  * [Example 2](./02/README.md)
-* Additional examples
-  * [Example 3](./03/README.md)
-  * [Example 4](./04/README.md)
+## Field filtration
+  * [Simple class filter](filter-field/README.md) 
+  
+## Session strategy filtration
+  * [Single strategy filter](filter-strategy/README.md)
+  * [Strategies filter](filter-strategies/README.md)
+  
+## XML configured filtration
+  * [XML file configuration](filter-file/README.md)
 
+## Spring RestController filtration
+  * [Filter of all responses in Spring controller](filter-controller/README.md)
+
+Additional [classes](./example-classes/README.md) used in this examples
