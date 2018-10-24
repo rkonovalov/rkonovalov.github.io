@@ -1,3 +1,9 @@
+---
+layout: default
+title: Json Ignore module
+description: Example classes
+---
+
 [Back](../index.MD) 
 
 # Example classes
