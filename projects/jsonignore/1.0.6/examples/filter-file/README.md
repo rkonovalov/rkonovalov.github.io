@@ -28,7 +28,7 @@ XML configuration uses next [DTD](https://rkonovalov.github.io/json-ignore-schem
 * **strategy** - this TAG similar [SessionStrategy](../filter-strategy/README.md) annotation
 * **filter** - this TAG similar [FieldFilterSetting](../filter-field/README.md) annotation
 
-* Example of using
+## Example of using
 
 ```java
 @FileFilterSetting(fileName = "filter_configuration.xml")
