@@ -4,7 +4,7 @@ title: Json Ignore module
 description: Requirements
 ---
 
-[Back](../README.md) 
+[Back](../index.MD) 
 
 # Requirements
 On this page you can find minimum requirements for project
