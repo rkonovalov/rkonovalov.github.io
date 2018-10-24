@@ -24,6 +24,7 @@ public class SessionService {
 ```
 
 * Service JSON response
+
 ```json
 {
   "id": 10,
