@@ -1,4 +1,5 @@
 ---
+layout: default
 title: Json Ignore module
 description: Requirements
 ---
