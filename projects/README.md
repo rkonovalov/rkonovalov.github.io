@@ -1,3 +1,3 @@
 ## Current active projects
 
-* [Json ignore](./jsonignore/README.md)
+* [Json ignore](jsonignore/index.MD)

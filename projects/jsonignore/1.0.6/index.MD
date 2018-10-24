@@ -4,7 +4,7 @@ title: Json Ignore module
 description: Manual
 ---
 
-[Back](../README.md)
+[Back](../index.MD)
 
 # Json Ignore module manual
 This module could be used in Spring MVC Rest project for filter(exclude) of fields in Service response.
