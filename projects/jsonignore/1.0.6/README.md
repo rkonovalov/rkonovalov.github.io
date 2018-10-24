@@ -1,7 +1,3 @@
----
-title: Changed title
----
-
 [Back](../README.md) 
 
 # Json Ignore module manual
@@ -14,9 +10,3 @@ For information please follow the links below.
 * [Install](./install/README.md)
 * [Getting started](./start/README.md)
 * [Examples](./examples/README.md)
-
-
-
-
-
-{% include foot.html %}
