@@ -1,4 +1,9 @@
-[Back](../README.md) 
+---
+layout: default
+title: Index md
+---
+
+[Back](../README.md)
 
 # Json Ignore module manual
 This module could be used in Spring MVC Rest project for filter(exclude) of fields in Service response.
