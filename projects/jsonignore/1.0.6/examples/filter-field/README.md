@@ -25,6 +25,7 @@ public class SessionService {
 
 
 * Service JSON response
+
 ```json
 {
   "id": 10,
@@ -44,3 +45,9 @@ public class SessionService {
 }
 ```
 
+As you can see some fields could be excess and not required in response. 
+It could be "id", "password", "secretKey" and so on.
+
+Also we can use Spring @View annotation for exclude these fields
+For more information please follow official Spring documentation [link](https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/web/servlet/View.html)
+But this solution is not flexible in situations when you need to send in response 
