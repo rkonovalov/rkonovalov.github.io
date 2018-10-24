@@ -1,3 +1,9 @@
+---
+layout: default
+title: Json Ignore module
+description: Getting started
+---
+
 [Back](../index.MD) 
 
 # Getting started
