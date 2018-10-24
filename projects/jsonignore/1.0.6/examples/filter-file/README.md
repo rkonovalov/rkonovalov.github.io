@@ -1,4 +1,4 @@
-[Back](../README.md) 
+[Back](../index.MD) 
 
 # Filtration configuration in xml based file
 If you have huge count of field or strategy filters configurations you can configure them in XML file

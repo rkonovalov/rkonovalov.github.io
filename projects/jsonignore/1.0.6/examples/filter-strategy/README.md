@@ -1,4 +1,4 @@
-[Back](../README.md) 
+[Back](../index.MD) 
 
 # Session Strategy filtration
 Since you have read about simple field filtration [link](../filter-field/README.md) we can continue.
