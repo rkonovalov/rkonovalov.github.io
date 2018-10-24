@@ -1,3 +1,9 @@
+---
+layout: default
+title: Main page
+description: 
+---
+
 ## Main page
 
 # Projects
