@@ -1,3 +1,5 @@
+[Back](../README.md) 
+
 # Session Strategy filtration
 Since you have read about simple field filtration [link](../filter-field/README.md) we can continue.
 During the development process you may encounter a situation when you need to send in service's response with 

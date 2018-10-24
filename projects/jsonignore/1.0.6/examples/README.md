@@ -1,3 +1,5 @@
+[Back](../README.md) 
+
 # Examples
 On this page you can find examples which will help using of module
 
