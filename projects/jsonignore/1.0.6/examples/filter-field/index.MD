@@ -1,7 +1,13 @@
+---
+layout: default
+title: Json Ignore module
+description: Field filtration
+---
+
 [Back](../index.MD) 
 
 # Field filtration
-In the next examples used additional sample [classes](../example-classes/README.md)
+In the next examples used additional sample [classes](../example-classes/index.MD)
 
 ## Example of response of Rest Service without filtration of fields
 In the next example you can see typical implementation of Spring Rest Service

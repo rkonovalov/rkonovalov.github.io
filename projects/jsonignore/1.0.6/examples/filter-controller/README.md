@@ -25,7 +25,7 @@ public class SessionService {
 In this example we specified FileFilterSetting annotation and configuration of "filter_configuration.xml" file will be applied on whole Service
 
 * List of valid values: 
-[FieldFilterSetting](../filter-field/README.md), 
+[FieldFilterSetting](../filter-field/index.MD), 
 [SessionStrategy](../filter-strategy/index.MD), 
 [FileFilterSetting](../filter-file/index.MD)
 
