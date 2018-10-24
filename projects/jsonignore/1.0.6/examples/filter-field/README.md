@@ -1,10 +1,8 @@
 # Field filtration
-Lorem ipsum
+In the next examples used additional sample [classes](../example-classes/README.md)
 
-In this examples used additional sample [classes](../example-classes/README.md)
-
-## Example of Rest service without filtration module
-In the next example you can see typical implementation of Spring Rest service
+## Example of response of Rest Service without filtration of fields
+In the next example you can see typical implementation of Spring Rest Service
 We defined signIn method, which requires email and password input params, and response User object
 
 ```java
@@ -50,7 +48,7 @@ It could be "id", "password", "secretKey" and so on.
 Also we can use Spring @View annotation for exclude these fields
 For more information please follow official Spring documentation [link](https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/web/servlet/View.html)
 
-But this solution is not flexible in situations when you need to send in different responses of service same classes with different "visible" fields.
+But this solution is not flexible in situations when you need to send in different responses of the Service same classes with different "visible" fields.
 As example: in one response you need to send only user's information, in other one you need to send user's information including his security information like "password" and etc.
 So you can use Json Ignore for field filtration. 
 
@@ -134,7 +132,7 @@ If you need to filter some fields in all classes and subclasses just add FieldFi
 }
 ```
 
-As you can see all fields with name *"id"* has been removed from service response
+As you can see all fields with name *"id"* has been removed from the Service response
 
 ## Multiple field filtration
 If you need to specify filtration of fields of each class separately you need to add and configure FieldFilterSetting annotation
