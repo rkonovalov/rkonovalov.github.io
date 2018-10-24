@@ -1,3 +1,5 @@
-# Example page
+#File filtration
 
-In this example used additional sample [classes](../example-classes/README.md)
+
+
+
