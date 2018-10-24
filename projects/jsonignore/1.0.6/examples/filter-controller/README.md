@@ -26,7 +26,7 @@ In this example we specified FileFilterSetting annotation and configuration of "
 
 * List of valid values: 
 [FieldFilterSetting](../filter-field/README.md), 
-[SessionStrategy](../filter-strategy/README.md), 
+[SessionStrategy](../filter-strategy/index.MD), 
 [FileFilterSetting](../filter-file/README.md)
 
 

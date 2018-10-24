@@ -1,7 +1,13 @@
+---
+layout: default
+title: Json Ignore module
+description: Session Strategy Filtration
+---
+
 [Back](../index.MD) 
 
 # Session Strategy filtration
-Since you have read about simple field filtration [link](../filter-field/README.md) we can continue.
+Since you have read about simple field filtration [link](../filter-field/index.MD) we can continue.
 During the development process you may encounter a situation when you need to send in service's response with 
 some fields whose depends from HTTP Session parameters.
 

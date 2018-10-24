@@ -27,7 +27,7 @@ XML configuration uses next [DTD](https://rkonovalov.github.io/json-ignore-schem
 ## Description of XML tags
 * **config** - main tag
 * **controller** - in this TAG you may set **class-name** property. Set Service class name where used this configuration
-* **strategy** - this TAG similar [SessionStrategy](../filter-strategy/README.md) annotation
+* **strategy** - this TAG similar [SessionStrategy](../filter-strategy/index.MD) annotation
 * **filter** - this TAG similar [FieldFilterSetting](../filter-field/README.md) annotation
 
 ## Example of using
