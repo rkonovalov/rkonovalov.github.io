@@ -1,3 +1,9 @@
+---
+layout: default
+title: Json Ignore module
+description: Service controller filtration
+---
+
 [Back](../index.MD) 
 
 # Configuration of filtration of whole Service Controller responses
