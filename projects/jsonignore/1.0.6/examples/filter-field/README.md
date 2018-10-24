@@ -55,8 +55,8 @@ As example: in one response you need to send only user's information, in other o
 So you can use Json Ignore for field filtration. 
 
 
-## Filtration of fields on specified class
-For field filtration of specified class you need just add next annotation
+## Filtration of fields of the specified class
+For field filtration you need just add next annotation
 
 ```java
  @FieldFilterSetting(className = User.class, fields = {"id", "password", "secretKey"})
@@ -83,6 +83,7 @@ In the following example we will try to filter fields: *"id", "password" and "se
 ```
 
 * Service JSON response:
+
 ```json
 { 
   "email": "janedoe@gmail.com", 
