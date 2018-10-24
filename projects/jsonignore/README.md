@@ -1,4 +1,10 @@
-[Back](../README.md) 
+---
+layout: default
+title: Json Ignore module
+description: Release notes
+---
+
+[Back](../index.MD) 
 
 # Welcome to Json Ignore page
 
@@ -6,7 +12,7 @@
 Lorem ipsum
 
 ## Manuals
-* [1.0.6](1.0.6/README.md)
+* [1.0.6](1.0.6/index.MD)
 
 
 # Release notes
