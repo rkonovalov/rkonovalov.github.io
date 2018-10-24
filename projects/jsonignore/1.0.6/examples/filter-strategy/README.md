@@ -76,13 +76,12 @@ Otherwise, field filtering will not be applied.
                @FieldFilterSetting(className = User.class, fields = {"password"})
   
     @RequestMapping(value = "/users/signIn",
-            params = {"email", "password"}, method = RequestMethod.POST,
-            consumes = {MediaType.APPLICATION_FORM_URLENCODED_VALUE},
-            produces = {MediaType.APPLICATION_JSON_VALUE})            
-    public User signIn(@RequestParam("email") String email, @RequestParam("password") String password) {
-        return userController.signInUser(email, password);
-    }
-}
+             params = {"email", "password"}, method = RequestMethod.POST,
+             consumes = {MediaType.APPLICATION_FORM_URLENCODED_VALUE},
+             produces = {MediaType.APPLICATION_JSON_VALUE})            
+     public User signIn(@RequestParam("email") String email, @RequestParam("password") String password) {
+         return userController.signInUser(email, password);
+     }
 ```
 
 * Service JSON response
