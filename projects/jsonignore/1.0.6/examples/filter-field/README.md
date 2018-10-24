@@ -5,6 +5,8 @@ In the next examples used additional sample [classes](../example-classes/README.
 In the next example you can see typical implementation of Spring Rest Service
 We defined signIn method, which requires email and password input params, and response User object
 
+[include](../example-classes/README.md)
+
 ```java
 @RestController
 public class SessionService {
