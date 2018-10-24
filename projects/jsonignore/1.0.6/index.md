@@ -1,6 +1,7 @@
 ---
 layout: default
-title: Index md
+title: Json Ignore module
+description: Manual
 ---
 
 [Back](../README.md)
