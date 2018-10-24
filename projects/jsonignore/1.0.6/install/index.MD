@@ -1,4 +1,10 @@
-[Back](../README.md) 
+---
+layout: default
+title: Json Ignore module
+description: Install
+---
+
+[Back](../index.MD) 
 
 # Importing module in project
 For using this module you need to import dependency
