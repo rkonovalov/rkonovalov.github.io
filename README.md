@@ -1,4 +1,4 @@
 ## Main page
 
 # Projects
-* [Active projects](./projects/README.md)
+* [Active projects](projects/index.MD)
