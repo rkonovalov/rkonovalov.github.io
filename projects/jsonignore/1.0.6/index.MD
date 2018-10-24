@@ -12,7 +12,7 @@ When you used Spring @View interface and need more powerful and flexibility, thi
 For information please follow the links below.
 
 ## Documentation
-* [Requirements](./requirements/README.md)
-* [Install](./install/README.md)
-* [Getting started](./start/README.md)
-* [Examples](./examples/README.md)
+* [Requirements](./requirements/index.MD)
+* [Install](./install/index.MD)
+* [Getting started](./start/index.MD)
+* [Examples](./examples/index.MD)
