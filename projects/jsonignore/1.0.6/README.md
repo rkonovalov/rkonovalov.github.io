@@ -1,3 +1,5 @@
+{% include head.html %}
+
 [Back](../README.md) 
 
 # Json Ignore module manual
@@ -15,3 +17,4 @@ For information please follow the links below.
 
 
 
+{% include foot.html %}
