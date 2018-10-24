@@ -1,3 +1,9 @@
+---
+layout: default
+title: Json Ignore module
+description: Filter configuration file
+---
+
 [Back](../index.MD) 
 
 # Filtration configuration in xml based file
@@ -28,7 +34,7 @@ XML configuration uses next [DTD](https://rkonovalov.github.io/json-ignore-schem
 * **config** - main tag
 * **controller** - in this TAG you may set **class-name** property. Set Service class name where used this configuration
 * **strategy** - this TAG similar [SessionStrategy](../filter-strategy/index.MD) annotation
-* **filter** - this TAG similar [FieldFilterSetting](../filter-field/README.md) annotation
+* **filter** - this TAG similar [FieldFilterSetting](../filter-field/index.MD) annotation
 
 ## Example of using
 
