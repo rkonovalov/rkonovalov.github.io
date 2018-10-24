@@ -49,18 +49,23 @@ It could be "id", "password", "secretKey" and so on.
 
 Also we can use Spring @View annotation for exclude these fields
 For more information please follow official Spring documentation [link](https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/web/servlet/View.html)
-But this solution is not flexible in situations when you need to send in response.
-So you can use Json Ignore for fields filtration. 
+
+But this solution is not flexible in situations when you need to send in different responses of service same classes with different "visible" fields.
+As example: in one response you need to send only user's information, in other one you need to send user's information including his security information like "password" and etc.
+So you can use Json Ignore for field filtration. 
 
 
 ## Filtration of fields on specified class
-For fields filtration of specified class you need just add next annotation
+For field filtration of specified class you need just add next annotation
 
 ```java
  @FieldFilterSetting(className = User.class, fields = {"id", "password", "secretKey"})
 ```
+This annotation contains:
+  * **className** - class name whose fields need to be filtered
+  * **fields** - an array of fields name
 
-In next example we will try to filter fields: *"id", "password" and "secretKey"* in User class
+In the following example we will try to filter fields: *"id", "password" and "secretKey"* in User class
 
 * Example
 
@@ -95,12 +100,11 @@ In next example we will try to filter fields: *"id", "password" and "secretKey"*
 ```
 
 ## Filtration of fields on class and subclasses
-If you need to filter some fields in all classes and subclasses you need add FieldFilterSetting annotation without className
+If you need to filter some fields in all classes and subclasses just add FieldFilterSetting annotation without className
 
 * Example
 
 ```java
-
     @FieldFilterSetting(fields = {"id"})
     @RequestMapping(value = "/users/signIn",
             params = {"email", "password"}, method = RequestMethod.POST,
@@ -108,11 +112,11 @@ If you need to filter some fields in all classes and subclasses you need add Fie
             produces = {MediaType.APPLICATION_JSON_VALUE})            
     public User signIn(@RequestParam("email") String email, @RequestParam("password") String password) {
         return userController.signInUser(email, password);
-    }
-
+    }    
 ```
 
 * Service JSON response:
+
 ```json
 { 
   "email": "janedoe@gmail.com", 
@@ -163,4 +167,4 @@ for each required class. Let's look to the next example
 As you can see fields *"id", "password", "secretKey"* has been removed from User class, *"apartmentNumber"* from Address class 
 and *"streetNumber"* field from Street class.
 
-Thus, you can filtrate each response of service.
+Thus, you can filtrate each response of the service.
