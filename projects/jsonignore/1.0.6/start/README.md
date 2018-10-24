@@ -1,4 +1,4 @@
-[Back](../README.md) 
+[Back](../index.MD) 
 
 # Getting started
 For activation of Json Ignore module just add next annotations
