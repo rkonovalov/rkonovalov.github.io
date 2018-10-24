@@ -1,4 +1,6 @@
-{% include head.html %}
+---
+title: Changed title
+---
 
 [Back](../README.md) 
 
