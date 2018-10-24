@@ -4,8 +4,8 @@ Lorem ipsum
 In this examples used additional sample [classes](../example-classes/README.md)
 
 ## Example of Rest service without filtration module
-In next example you can see typical implementation of Spring Rest service
-We defined signIn method, which requires email and password params, and response User object
+In the next example you can see typical implementation of Spring Rest service
+We defined signIn method, which requires email and password input params, and response User object
 
 ```java
 @RestController
@@ -23,8 +23,8 @@ public class SessionService {
 }
 ```
 
-* Service JSON response
 
+* Service JSON response
 ```json
 {
   "id": 10,
