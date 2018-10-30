@@ -18,9 +18,10 @@ Lorem ipsum
 # Release notes
 
 ## Version 1.0.6
+* Added JSON/XML converters as HttpMessageConverter
+* Removed native reflection and added Jackson BeanSerializerModifier for field filtering
 * Added EnableJsonFilter annotation for enabling/disabling filters
 * Added ability to apply filter annotations on whole Spring Rest controller
-* Added manual
 * Fixed bugs
 
 ## Version 1.0.5
