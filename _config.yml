@@ -2,7 +2,7 @@ theme: jekyll-theme-tactile
 title: Title
 description: Description
 show_downloads: false
-site.icon: assets/favicon.ico
+
 
 
 exclude:

@@ -1,6 +1,8 @@
 ---
 ---
 
+site.icon "assets/favicon.ico";
+
 @import "{{ site.theme }}";
 
 .inner {
