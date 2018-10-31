@@ -10,8 +10,7 @@
 .logo {
   width: 100px;
   height: 100px;
-  background-image: url('/assets/logo.png');
-  background-position: center;
+  background: url('/assets/logo.png') center;
   background-size: 100px;
   display: inline-block;
   float: left;
