@@ -4,7 +4,7 @@ title: Json Ignore module
 description: Field filtration
 ---
 
-[Back](../index.MD) 
+[Main](../../../index.MD) > [1.0.6](../../index.MD) >  [Examples](../index.MD) > Field filtration
 
 # Field filtration
 In the next examples used additional sample [classes](../example-classes/index.MD)

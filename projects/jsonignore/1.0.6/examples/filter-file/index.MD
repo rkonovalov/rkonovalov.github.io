@@ -4,7 +4,7 @@ title: Json Ignore module
 description: Filter configuration file
 ---
 
-[Back](../index.MD) 
+[Main](../../../index.MD) > [1.0.6](../../index.MD) >  [Examples](../index.MD) > Filter configuration file
 
 # Filtration configuration in xml based file
 If you have huge count of field or strategy filters configurations you can configure them in XML file

@@ -4,7 +4,7 @@ title: Json Ignore module
 description: Service controller filtration
 ---
 
-[Back](../index.MD) 
+[Main](../../../index.MD) > [1.0.6](../../index.MD) >  [Examples](../index.MD) > Service controller filtration
 
 # Configuration of filtration of whole Service Controller responses
 If you don't want to add filter annotations to each Service response, you can add annotation on whole Service

@@ -4,7 +4,7 @@ title: Json Ignore module
 description: Session Strategy Filtration
 ---
 
-[Back](../index.MD) 
+[Main](../../../index.MD) > [1.0.6](../../index.MD) >  [Examples](../index.MD) > Session Strategy Filtration
 
 # Session Strategy filtration
 Since you have read about simple field filtration [link](../filter-field/index.MD) we can continue.
