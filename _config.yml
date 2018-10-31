@@ -2,16 +2,9 @@ theme: jekyll-theme-tactile
 title: Title
 description: Description
 show_downloads: false
+site.icon: assets/favicon.ico
+
 
 exclude:
 - assets/javascript/anchor-js
 
-include:
-- assets/css/main.css
-
-use_logo: true
-
-# logo image to use. logo images are constrained at 50px in height.
-logo: assets/logo.png
-
-site.icon: assets/favicon.ico
