@@ -13,3 +13,5 @@ use_logo: true
 
 # logo image to use. logo images are constrained at 50px in height.
 logo: assets/logo.png
+
+favicon: assets/favicon.ico
