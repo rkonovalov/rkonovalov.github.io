@@ -5,3 +5,6 @@ show_downloads: false
 
 exclude:
 - assets/javascript/anchor-js
+
+include:
+- assets/css/main.css
