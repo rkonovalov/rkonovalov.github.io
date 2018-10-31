@@ -4,7 +4,7 @@ title: Json Ignore module
 description: Install
 ---
 
-[Back](../index.MD) 
+[Main](../../index.MD) > [1.0.6](../index.MD) > Installation
 
 # Importing module in project
 For using this module you need to import dependency

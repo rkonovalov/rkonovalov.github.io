@@ -13,6 +13,6 @@ For information please follow the links below.
 
 ## Index
 * [Requirements](./requirements/index.MD)
-* [Install](./install/index.MD)
+* [Installation](./install/index.MD)
 * [Getting started](./start/index.MD)
 * [Examples](./examples/index.MD)

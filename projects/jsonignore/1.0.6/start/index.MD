@@ -4,7 +4,7 @@ title: Json Ignore module
 description: Getting started
 ---
 
-[Back](../index.MD) 
+[Main](../../index.MD) > [1.0.6](../index.MD) > Getting Started
 
 # Getting started
 For activation of Json Ignore module just add next annotations
