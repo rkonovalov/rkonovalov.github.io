@@ -4,7 +4,7 @@ title: Json Ignore module
 description: Example list
 ---
 
-[Back](../index.MD) 
+[Main](../../index.MD) > [1.0.6](../index.MD) > Examples
 
 # Examples
 On this page you can find examples which will help using of module
