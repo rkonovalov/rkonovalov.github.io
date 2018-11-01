@@ -10,11 +10,11 @@ header_title: Release notes 1.0.6
 # Release notes
 
 #### Version 1.0.6
-  * Added JSON/XML converters inherited from HttpMessageConverter
-  * Removed native reflection and added Jackson BeanSerializerModifier for field filtering
-  * Added EnableJsonFilter annotation for enabling/disabling filtration
-  * Added ability to apply filter annotations on whole Spring Rest controller
-  * Fixed bugs
+    * Added JSON/XML converters inherited from HttpMessageConverter
+    * Removed native reflection and added Jackson BeanSerializerModifier for field filtering
+    * Added EnableJsonFilter annotation for enabling/disabling filtration
+    * Added ability to apply filter annotations on whole Spring Rest controller
+    * Fixed bugs
 
 **Version 1.0.5**
   * Added Filter provider for improving execution speed
