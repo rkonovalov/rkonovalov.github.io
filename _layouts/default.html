@@ -2,6 +2,7 @@
 <html lang="{{ site.lang | default: "en-US" }}">
 <head>
     <meta charset='utf-8'>
+    <title>{{page.title}}</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
     <link rel="stylesheet" type="text/css" href="{{ '/assets/css/print.css' | relative_url }}" media="print">
@@ -56,11 +57,6 @@
     ga('send', 'pageview');
 </script>
 {% endif %}
-
-<script>
-    console.info('{{ site }}');
-</script>
-
 
 </body>
 </html>
