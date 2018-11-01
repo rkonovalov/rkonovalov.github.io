@@ -29,5 +29,5 @@ compile 'com.github.rkonovalov:json-ignore:1.0.6'
 compile(group = "com.github.rkonovalov", name = "json-ignore", version = "1.0.6")
 ```
 
-### Other build automation tools
-* [Other tools](https://search.maven.org/artifact/com.github.rkonovalov/json-ignore/1.0.6/jar)
+* Other build automation tools
+  * [Other tools](https://search.maven.org/artifact/com.github.rkonovalov/json-ignore/1.0.6/jar)
