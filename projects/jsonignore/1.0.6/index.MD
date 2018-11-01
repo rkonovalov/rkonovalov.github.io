@@ -2,7 +2,7 @@
 layout: default
 title: Json Ignore Documentation
 description: Version 1.0.6
-page.title: ok
+var1: ok
 ---
 
 [Main](../index.MD) > 1.0.6
