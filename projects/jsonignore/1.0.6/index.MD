@@ -16,3 +16,4 @@ For information please follow the links below.
 * [Installation](./install/index.MD)
 * [Getting started](./start/index.MD)
 * [Examples](./examples/index.MD)
+* [Release Notes](./release-notes/index.MD)
