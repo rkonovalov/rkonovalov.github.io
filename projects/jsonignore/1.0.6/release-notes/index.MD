@@ -1,10 +1,12 @@
 ---
 layout: default
-title: Json Ignore module
-description: Release notes
+title: Json Ignore Documentation
+description: Version 1.0.6
 ---
 
 [Main](../../index.MD) > [1.0.6](../index.MD) > Release notes
+
+# Release notes
 
 **Version 1.0.6**
 * Added JSON/XML converters inherited from HttpMessageConverter

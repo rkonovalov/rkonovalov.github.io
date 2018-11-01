@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Json Ignore module
-description: Manual
+title: Json Ignore Documentation
+description: Version 1.0.6
 ---
 
 [Main](../index.MD) > 1.0.6
