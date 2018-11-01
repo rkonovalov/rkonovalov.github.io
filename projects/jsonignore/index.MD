@@ -7,7 +7,7 @@ description: Release notes
 Main
 
 # Welcome to Json Ignore page
-This module could be used in Spring MVC Rest project for filter(exclude) of fields in Service response.
+This module could be used in Spring Web Service project for filter(exclude) of fields in Service response.
 When you used Spring @View interface and need more powerful and flexibility, this module could useful.
 
 ## Manuals
