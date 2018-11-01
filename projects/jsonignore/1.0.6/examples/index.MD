@@ -15,4 +15,5 @@ On this page you can find examples which can help using of module
   * [XML Schema-based filter configuration](filter-file/index.MD)
   * [Whole Spring controller filtration](filter-controller/index.MD)
 
-Additional sample [classes](./example-classes/index.MD)
+* **Other Resources** 
+  * [Example classes](./example-classes/index.MD)
