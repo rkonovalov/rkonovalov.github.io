@@ -9,7 +9,7 @@ header_title: Json Ignore 1.0.6
 
 # Json Ignore module
 This module could be used in Spring Web Service project for filter(exclude) of fields in Service response.
-When you used Spring @View interface and need more powerful and flexibility, this module could useful.
+When you used Spring @View interface and need more powerful and flexibility, this module could be useful.
 For information please follow the links below.
 
 ## Index
