@@ -7,7 +7,7 @@ header_title: Requirements 1.0.6
 
 [Main](../../index.MD) > [1.0.6](../index.MD) > Requirements
 
-# Requirements
+## Requirements
 On this page you can find minimum requirements for module using
 
 * **Minimum requirements**
