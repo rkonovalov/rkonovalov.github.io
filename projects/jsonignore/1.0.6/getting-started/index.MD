@@ -2,6 +2,7 @@
 layout: default
 title: Json Ignore Documentation
 description: Version 1.0.6
+header_title: Getting started 1.0.6
 ---
 
 [Main](../../index.MD) > [1.0.6](../index.MD) > Getting Started

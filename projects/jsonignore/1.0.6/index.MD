@@ -2,7 +2,7 @@
 layout: default
 title: Json Ignore Documentation
 description: Version 1.0.6
-header_title: Main 1.0.6
+header_title: Json Ignore 1.0.6
 ---
 
 [Main](../index.MD) > 1.0.6
