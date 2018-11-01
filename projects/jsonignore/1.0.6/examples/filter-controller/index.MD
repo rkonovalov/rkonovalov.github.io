@@ -4,9 +4,9 @@ title: Json Ignore Documentation
 description: Version 1.0.6
 ---
 
-[Main](../../../index.MD) > [1.0.6](../../index.MD) >  [Examples](../index.MD) > Service controller filtration
+[Main](../../../index.MD) > [1.0.6](../../index.MD) >  [Examples](../index.MD) > Whole Spring Controller filtration
 
-# Configuration of filtration of whole Service Controller responses
+# Whole Spring Controller filtration
 If you don't want to add filter annotations to each Service response, you can add annotation on whole Service
 Let's look at the next example
 
@@ -31,9 +31,9 @@ public class SessionService {
 In this example we specified FileFilterSetting annotation and configuration of "filter_configuration.xml" file will be applied on whole Service
 
 * List of valid values: 
-[FieldFilterSetting](../filter-field/index.MD), 
-[SessionStrategy](../filter-strategy/index.MD), 
-[FileFilterSetting](../filter-file/index.MD)
+  * [FieldFilterSetting](../filter-field/index.MD)
+  * [SessionStrategy](../filter-strategy/index.MD) 
+  * [FileFilterSetting](../filter-file/index.MD)
 
 
 

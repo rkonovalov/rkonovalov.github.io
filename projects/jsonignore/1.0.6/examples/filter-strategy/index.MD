@@ -4,9 +4,9 @@ title: Json Ignore Documentation
 description: Version 1.0.6
 ---
 
-[Main](../../../index.MD) > [1.0.6](../../index.MD) >  [Examples](../index.MD) > Session Strategy Filtration
+[Main](../../../index.MD) > [1.0.6](../../index.MD) >  [Examples](../index.MD) > Session strategy filter
 
-# Session Strategy filtration
+# Session strategy filter
 Since you have read about simple field filtration [link](../filter-field/index.MD) we can continue.
 During the development process you may encounter a situation when you need to send in service's response with 
 some fields whose depends from HTTP Session parameters.

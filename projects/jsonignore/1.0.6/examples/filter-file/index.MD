@@ -4,9 +4,9 @@ title: Json Ignore Documentation
 description: Version 1.0.6
 ---
 
-[Main](../../../index.MD) > [1.0.6](../../index.MD) >  [Examples](../index.MD) > Filter configuration file
+[Main](../../../index.MD) > [1.0.6](../../index.MD) >  [Examples](../index.MD) > XML Schema-based filter configuration
 
-# Filtration configuration in xml based file
+# XML Schema-based filter configuration
 If you have huge count of field or strategy filters configurations you can configure them in XML file
 XML configuration uses next [DTD](https://rkonovalov.github.io/json-ignore-schema-1.0.dtd) structure file.
 

@@ -4,9 +4,9 @@ title: Json Ignore Documentation
 description: Version 1.0.6
 ---
 
-[Main](../../../index.MD) > [1.0.6](../../index.MD) >  [Examples](../index.MD) > Field filtration
+[Main](../../../index.MD) > [1.0.6](../../index.MD) >  [Examples](../index.MD) > Simple field filter
 
-# Field filtration
+# Simple field filter
 In the next examples used additional sample [classes](../example-classes/index.MD)
 
 ## Example of response of Rest Service without filtration of fields
