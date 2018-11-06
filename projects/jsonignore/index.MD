@@ -12,3 +12,4 @@ For more information please select required version
 
 * **Versions**
   * [Version 1.0.6](1.0.6/index.MD)
+  * [Version 1.0.7](1.0.7/index.MD)
