@@ -55,5 +55,5 @@ Where
 
 ## Auto reloading changed XML files
 Also has been added FileWatcher controller which auto reloads changed xml files.
-Therefore xml configuration files could be changed after application starts 
-and controller will correctly reloads all changed files. It could be useful in dynamic field filter strategy.
+Therefore xml configuration files could be change after application starts 
+and controller will correctly reloads all changed files.
