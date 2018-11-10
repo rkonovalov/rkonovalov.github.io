@@ -1,11 +1,11 @@
 ---
 layout: default
 title: Json Ignore Documentation
-description: Version 1.0.7
-header_title: Requirements 1.0.7
+description: Version 1.0.8
+header_title: Requirements 1.0.8
 ---
 
-[Main](../../index.MD) > [1.0.7](../index.MD) > Requirements
+[Main](../../index.MD) > [1.0.8](../index.MD) > Requirements
 
 ## Requirements
 On this page you can find minimum requirements for module using
