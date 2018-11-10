@@ -14,6 +14,8 @@ header_title: Release notes 1.0.8
     * Added DynamicSessionFilter for storing custom field filter in session
     * Added feature for auto loading XML Schema-based configuration filter when it changed on runtime
     * Fixed bug in FileFilter which not allowed to load xml configuration from external source
+    * Changed package name from com.json.ignore to com.jfilter 
+    * Changed package from advice to components
 
 ## Version 1.0.7
     * Added FileWatcher controller which auto reloads modified XML Schema based configurations

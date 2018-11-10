@@ -12,7 +12,7 @@ For activation of JFilter module just add next annotations
 
 ## Component scan and enable filter
 ```text
-@ComponentScan({"com.json.ignore.advice"})
+@ComponentScan({"com.jfilter.components"})
 @EnableJsonFilter
 ```
 
@@ -21,7 +21,7 @@ For activation of JFilter module just add next annotations
 @Configuration
 @EnableWebMvc
 
-@ComponentScan({"com.json.ignore.advice"})
+@ComponentScan({"com.jfilter.components"})
 @EnableJsonFilter
 public class AppConfig extends WebMvcConfigurerAdapter {
     
@@ -44,7 +44,7 @@ When using XML Schema-based configuration, just next component scan configuratio
        xsi:schemaLocation="http://www.springframework.org/schema/beans">
        
        
-    <context:component-scan base-package="com.json.ignore.advice"/>
+    <context:component-scan base-package="com.jfilter.components"/>
     
 </beans>
 ```
