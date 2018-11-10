@@ -7,4 +7,4 @@ header_title: Projects
 
 ## Current active projects
 
-* [Json ignore](jfilter/index.MD)
+* [JFilter](jfilter/index.MD)
