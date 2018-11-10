@@ -6,18 +6,6 @@ description: Version 1.0.8
 
 [Main](../../../index.MD) > [1.0.8](../../index.MD) >  [Examples](../index.MD) > XML Schema-based filter configuration
 
-# At first
-Add *@EnableScheduling* annotation in your Spring Service configuration.
-This is necessary in order for the auto-reloading algorithm of changed files which will reloaded while the service is running.
-Сhanges checking occur every 2 seconds. And you could be sure that all configuration files is up to date.
-
-## Example
-
-```java
-
-```
-
-
 # XML Schema-based filter configuration
 If you have huge count of field or strategy filters configurations you can configure them in XML file
 XML configuration uses next [DTD](https://rkonovalov.github.io/json-ignore-schema-1.0.dtd) structure file.
