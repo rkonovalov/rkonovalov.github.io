@@ -23,6 +23,7 @@ For information please follow the links below.
 
 ## Index
 * [Requirements](./requirements/index.MD)
+* [Diagram](diagram/index.MD)
 * [Installation](installation/index.MD)
 * [Getting started](getting-started/index.MD)
 * [Examples](./examples/index.MD)
