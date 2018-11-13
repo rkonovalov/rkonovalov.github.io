@@ -9,4 +9,4 @@ header_title: Diagram of module flowchart 1.0.8
 
 This is diagram of module flowchart.
 
-![Diagram](/assets/images/jfilter-diagram.png)
+![Diagram](/assets/images/jfilter-diagram.1.0.8.png)
