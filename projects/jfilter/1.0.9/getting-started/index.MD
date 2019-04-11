@@ -19,8 +19,6 @@ For activation of JFilter module just add next annotation
 ```java
 @Configuration
 @EnableWebMvc
-
-@ComponentScan({"com.jfilter.components"})
 @EnableJsonFilter
 public class AppConfig extends WebMvcConfigurerAdapter {
     
