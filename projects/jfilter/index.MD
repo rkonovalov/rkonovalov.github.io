@@ -14,3 +14,4 @@ For more information please select required version
   * [Version 1.0.6](1.0.6/index.MD)
   * [Version 1.0.7](1.0.7/index.MD)
   * [Version 1.0.8](1.0.8/index.MD)
+  * [Version 1.0.9](1.0.9/index.MD)
