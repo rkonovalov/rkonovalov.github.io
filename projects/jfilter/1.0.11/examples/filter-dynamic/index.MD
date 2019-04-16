@@ -18,15 +18,16 @@ Next example illustrates typical implementation
     public class DemoIdFilter implements DynamicFilterEvent {
         @Override
         public FilterFields onGetFilterFields(MethodParameter methodParameter, RequestSession request) {
-
-            if(request.getSession().getAttribute("SOME_VALUE") != null) {
+    
+            //If request has SOME_KEY in request params then try to filter object
+            if(request.getRequest().getParameterMap().containsKey("SOME_KEY")) {
                 return new FilterFields(User.class, Arrays.asList("id", "password", "email"));
             } else
                 return new FilterFields();
         }
     }
 ```
-In this example we created DemoIdFilter which attempts to find attribute *SOME_VALUE* in Http Session.
+In this example we created DemoIdFilter which attempts to find attribute *SOME_KEY* in Http request params.
 If attribute exists event *onGetFilterFields* returns configured FilterFields. As you can see, FilterFields contains filter for User.class
 If Response Body of Spring Service contains object with class name User.class it will be filtered and fields "id", "password", "email" will
 be removed from response.
