@@ -8,6 +8,7 @@
                 attribute-name CDATA #REQUIRED
                 attribute-value CDATA #REQUIRED>
         <!ELEMENT filter (field)*>
+        <!ATTLIST meta inherit (true|false) "true">
         <!ATTLIST filter
                 class CDATA #REQUIRED>
         <!ELEMENT field (#PCDATA)>
