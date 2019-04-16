@@ -1,0 +1,16 @@
+<!DOCTYPE config [
+        <!ELEMENT config (controller)*>
+        <!ELEMENT controller (strategy)*>
+        <!ATTLIST controller
+                class-name CDATA #REQUIRED>
+        <!ELEMENT strategy (filter)*>
+        <!ATTLIST strategy
+                attribute-name CDATA #REQUIRED
+                attribute-value CDATA #REQUIRED>
+        <!ELEMENT filter (field)*>
+        <!ATTLIST filter
+                class CDATA #REQUIRED>
+        <!ELEMENT field (#PCDATA)>
+        <!ATTLIST field
+                name CDATA #REQUIRED>
+        ]>
