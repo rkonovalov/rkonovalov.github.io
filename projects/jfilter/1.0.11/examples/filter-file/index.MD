@@ -79,5 +79,5 @@ If you need instead of hide some fields keep them, you can use next configuratio
 </config>
 ```
 * **behaviour** - this is behaviour parameter, it could have next values:
-1. **KEEP_FIELDS** - hide all fields bot not specified in field list
-2. **HIDE_FIELDS**(by default) - hide fields specified in field list
+  1. **KEEP_FIELDS** - hide all fields bot not specified in field list
+  2. **HIDE_FIELDS**(by default) - hide fields specified in field list
