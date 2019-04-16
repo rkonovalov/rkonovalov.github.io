@@ -174,4 +174,16 @@ for each required class. Let's look to the next example
 As you can see fields *"id", "password", "secretKey"* has been removed from User class, *"apartmentNumber"* from Address class 
 and *"streetNumber"* field from Street class.
 
+## Keep fields from filtration
+If you need instead of hide some fields keep them, you can use next example
+
+```java
+ @FieldFilterSetting(fields = {"id", "email"}, behaviour = FilterBehaviour.KEEP_FIELDS)
+ ...
+```
+In this example JFilter will hide all fields but not **"id"** and **"email"**
+* **behaviour** - could have next values:
+  1. **KEEP_FIELDS** - hide all fields bot not specified in fields list
+  2. **HIDE_FIELDS**(by default) - hide fields specified in fields list
+
 Thus, you can filtrate each response of the service.
