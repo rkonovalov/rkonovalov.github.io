@@ -57,3 +57,27 @@ Where
 Also has been added FileWatcher controller which auto reloads changed xml files.
 Therefore xml configuration files could be change after application starts 
 and controller will correctly reloads all changed files.
+
+# XML configuration example with keep fields behaviour
+If you need instead of hide some fields keep them, you can use next configuration example
+
+```xml
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE config PUBLIC
+        "-//json/json-ignore mapping DTD 1.0//EN"
+        "https://rkonovalov.github.io/json-ignore-schema-1.1.dtd">
+<config>
+    <controller class-name="com.example.SessionService">
+        <strategy attribute-name="ROLE" attribute-value="USER">
+
+            <filter class="com.example.User" behaviour="KEEP_FIELDS">
+                <field name="password"/>
+            </filter>
+        </strategy>
+       
+    </controller>
+</config>
+```
+* **behaviour** - this is behaviour parameter, it could have next values:
+*  1) **KEEP_FIELDS** - hide all fields bot not specified in field list
+*  2) **HIDE_FIELDS**(by default) - hide fields specified in field list
