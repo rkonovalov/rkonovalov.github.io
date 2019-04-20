@@ -26,6 +26,7 @@ For information please follow the links below.
 * [Diagram](diagram/index.MD)
 * [Installation](installation/index.MD)
 * [Getting started](getting-started/index.MD)
+* [Configuration](configuration/index.MD)
 * [Examples](./examples/index.MD)
   * [Simple field filter](./examples/filter-field/index.MD)  
   * [Session strategy filter](./examples/filter-strategy/index.MD) 
