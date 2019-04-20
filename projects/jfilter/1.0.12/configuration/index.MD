@@ -47,8 +47,11 @@ public class AppConfig {
   @Autowired
   public void configure(FilterConfiguration filterConfiguration) { 
   
-      //Add custom ObjectMapper
-      filterConfiguration.setMapper(MediaType.APPLICATION_JSON, new ObjectMapper());        
+      //Add custom Json ObjectMapper
+      filterConfiguration.setMapper(MediaType.APPLICATION_JSON, new ObjectMapper());    
+      
+      //Add custom Json ObjectMapper
+      filterConfiguration.setMapper(MediaType.APPLICATION_XML, new XmlMapper());     
   }
     
 }
