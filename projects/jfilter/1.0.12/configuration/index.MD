@@ -57,3 +57,22 @@ public class AppConfig {
 }
 ```
 If configuration already has ObjectMapper by specified MediaType it will be overridden by new ObjectMapper
+
+## Spring Boot default ObjectMapper
+If environment is Spring Boot, you can use default ObjectMapper
+
+```java
+@Configuration
+@EnableWebMvc
+@EnableJsonFilter
+public class AppConfig {
+  
+  @Autowired
+  public void configure(FilterConfiguration filterConfiguration, ObjectMapper objectMapper) { 
+  
+      //Add custom Json ObjectMapper
+      filterConfiguration.setMapper(MediaType.APPLICATION_JSON, objectMapper);     
+  }
+    
+}
+```
