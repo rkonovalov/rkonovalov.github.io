@@ -24,8 +24,8 @@ XML configuration uses next [DTD](https://rkonovalov.github.io/json-ignore-schem
             <filter class="com.example.User">
                 <field name="password"/>
             </filter>
-        </strategy>
-       
+            
+        </strategy>       
     </controller>
 </config>
 ```
@@ -73,8 +73,8 @@ If you need instead of hide some fields keep them, you can use next configuratio
             <filter class="com.example.User" behaviour="KEEP_FIELDS">
                 <field name="password"/>
             </filter>
-        </strategy>
-       
+            
+        </strategy>       
     </controller>
 </config>
 ```
