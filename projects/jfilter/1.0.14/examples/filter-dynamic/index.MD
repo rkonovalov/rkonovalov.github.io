@@ -80,4 +80,24 @@ In this example you can see 3 different conditions
 ```
 * For additional information about using **Comparator** please follow next link: https://github.com/rkonovalov/comparator
 
+# Passing filter fields through controller
+If you need to pass filter fields in rest controller, you can do it by using **DynamicSessionFilter** and **ATTRIBUTE_FILTER_FIELDS** session attribute.
+```java
+    @DynamicFilter(DynamicSessionFilter.class)
+    @RequestMapping(value = "/signInUser",
+            params = {"email", "password"}, 
+			method = RequestMethod.POST,
+            consumes = {MediaType.APPLICATION_FORM_URLENCODED_VALUE},
+            produces = {MediaType.APPLICATION_JSON_VALUE})
+    public User signInUser(HttpSession session,  @RequestParam("email") String email, @RequestParam("password") String password) {
+        
+	//Set configured FilterFields into session's ATTRIBUTE_FILTER_FIELDS attribute		
+	session.setAttribute(DynamicSessionFilter.ATTRIBUTE_FILTER_FIELDS, FilterFields.getFieldsBy(Arrays.asList("id", "password", "email")));
+		
+	//DynamicSessionFilter will check ATTRIBUTE_FILTER_FIELDS in session attributes and if attribute has FilterFields
+	//it will filter current response
+        return databaseService.getUser(email, password);
+    }
+```
+
 With this filter you get huge space of Service Response customization.
