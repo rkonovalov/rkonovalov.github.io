@@ -92,7 +92,8 @@ If you need to pass filter fields in rest controller, you can do it by using **D
     public User signInUser(HttpSession session,  @RequestParam("email") String email, @RequestParam("password") String password) {
         
 	//Set configured FilterFields into session's ATTRIBUTE_FILTER_FIELDS attribute		
-	session.setAttribute(DynamicSessionFilter.ATTRIBUTE_FILTER_FIELDS, FilterFields.getFieldsBy(Arrays.asList("id", "password", "email")));
+	session.setAttribute(DynamicSessionFilter.ATTRIBUTE_FILTER_FIELDS, 
+	  FilterFields.getFieldsBy(Arrays.asList("id", "password", "email")));
 		
 	//DynamicSessionFilter will check ATTRIBUTE_FILTER_FIELDS in session attributes and if attribute has FilterFields
 	//it will filter current response
