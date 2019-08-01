@@ -56,10 +56,10 @@ public class AppConfig {
     
 }
 ```
-If configuration already has ObjectMapper by specified MediaType it will be overridden by new ObjectMapper
+If configuration already has **ObjectMapper** by specified MediaType it will be overridden by new ObjectMapper
 
 ## Spring Boot default ObjectMapper
-If environment is Spring Boot, you can use default ObjectMapper
+If environment is **Spring Boot**, you can use default **ObjectMapper**
 
 ```java
 @Configuration
