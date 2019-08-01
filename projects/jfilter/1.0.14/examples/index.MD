@@ -1,11 +1,11 @@
 ---
 layout: default
 title: JFilter Documentation
-description: Version 1.0.12
-header_title: Examples 1.0.12
+description: Version 1.0.14
+header_title: Examples 1.0.14
 ---
 
-[Main](../../index.MD) > [1.0.12](../index.MD) > Examples
+[Main](../../index.MD) > [1.0.14](../index.MD) > Examples
 
 On this page you can find examples which can help using of module
 
