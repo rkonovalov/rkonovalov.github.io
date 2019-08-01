@@ -76,3 +76,21 @@ public class AppConfig {
     
 }
 ```
+
+## Using default Spring message converters
+Also you can use default Spring message converters **MappingJackson2HttpMessageConverter** and **MappingJackson2XmlHttpMessageConverter** instead of **FilterConverter**
+```java
+@Configuration
+@EnableWebMvc
+@EnableJsonFilter
+public class AppConfig {
+  
+  @Autowired
+  public void configure(FilterConfiguration filterConfiguration) {   
+      //Use default converters
+      filterConfiguration.setUseDefaultConverters(true);   
+  }
+    
+}
+```
+JFilter will use default message converters with **FilterObjectMapper** and **FilterXmlMapper** instead of **ObjectMapper** and **XmlMapper**
