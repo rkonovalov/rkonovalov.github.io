@@ -18,3 +18,4 @@ On this page you can find examples which can help using of module
 
 * **Other Resources** 
   * [Example classes](./example-classes/index.MD)
+  * Also you can view samples in GitHub [Samples](https://github.com/rkonovalov/jfilter-samples)
