@@ -1,0 +1,32 @@
+<!-- JFilter mapping DTD.
+
+<!DOCTYPE config PUBLIC
+    "-//jfilter mapping DTD 1.1//EN"
+    "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+An instance of this XML document may contain mappings for an arbitrary
+number of classes. The class mappings may contain associations to classes
+mapped in the same document or in another document. No class may be
+mapped more than once. Each document may also contain definitions of an
+arbitrary number of queries, and import declarations of arbitrary classes.
+
+-->
+
+        <!DOCTYPE config [
+        <!ELEMENT config (controller)*>
+        <!ELEMENT controller (strategy)*>
+        <!ATTLIST controller
+                class-name CDATA #REQUIRED>
+        <!ELEMENT strategy (filter)*>
+        <!ATTLIST strategy
+                attribute-name CDATA #REQUIRED
+                attribute-value CDATA #REQUIRED>
+        <!ELEMENT filter (field)*>
+        <!ATTLIST filter
+                class CDATA #REQUIRED>
+        <!ATTLIST filter behaviour (HIDE_FIELDS | KEEP_FIELDS) "HIDE_FIELDS">
+        <!ELEMENT field (#PCDATA)>
+        <!ATTLIST field
+                name CDATA #REQUIRED>
+        ]>
+
