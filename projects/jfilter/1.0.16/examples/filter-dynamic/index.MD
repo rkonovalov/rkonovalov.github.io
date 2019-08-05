@@ -92,13 +92,33 @@ If you need to pass filter fields in rest controller, you can do it by using **D
     public User signInUser(HttpSession session,  @RequestParam("email") String email, @RequestParam("password") String password) {
         
 	//Set configured FilterFields into session's ATTRIBUTE_FILTER_FIELDS attribute		
-	session.setAttribute(DynamicSessionFilter.ATTRIBUTE_FILTER_FIELDS, 
-	  FilterFields.getFieldsBy(Arrays.asList("id", "password", "email")));
+	FilterUtil.useFilter(session, FilterFields.getFieldsBy(Arrays.asList("id", "password", "email")));
 		
 	//DynamicSessionFilter will check ATTRIBUTE_FILTER_FIELDS in session attributes and if attribute has FilterFields
 	//it will filter current response
         return databaseService.getUser(email, password);
     }
 ```
+
+Also instead using **session** you can use **request** for passing filter
+
+```java
+    @DynamicFilter(DynamicSessionFilter.class)
+    @RequestMapping(value = "/signInUser",
+            params = {"email", "password"}, 
+			method = RequestMethod.POST,
+            consumes = {MediaType.APPLICATION_FORM_URLENCODED_VALUE},
+            produces = {MediaType.APPLICATION_JSON_VALUE})
+    public User signInUser(HttpServletRequest request,  @RequestParam("email") String email, @RequestParam("password") String password) {
+        
+	//Set configured FilterFields into session's ATTRIBUTE_FILTER_FIELDS attribute		
+	FilterUtil.useFilter(request, FilterFields.getFieldsBy(Arrays.asList("id", "password", "email")));
+		
+	//DynamicSessionFilter will check ATTRIBUTE_FILTER_FIELDS in request attributes and if attribute has FilterFields
+	//it will filter current response
+        return databaseService.getUser(email, password);
+    }
+```
+
 
 With this filter you get huge space of Service Response customization.
