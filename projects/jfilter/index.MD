@@ -18,4 +18,5 @@ For more information please select required version
   * [Version 1.0.11](1.0.11/index.MD)
   * [Version 1.0.12](1.0.12/index.MD)
   * [Version 1.0.14](1.0.14/index.MD)
-  * [Version 1.0.14](1.0.15/index.MD)
+  * [Version 1.0.15](1.0.15/index.MD)
+  * [Version 1.0.16](1.0.16/index.MD)

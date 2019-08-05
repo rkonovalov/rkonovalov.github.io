@@ -1,10 +1,10 @@
 ---
 layout: default
 title: JFilter Documentation
-description: Version 1.0.15
+description: Version 1.0.16
 ---
 
-[Main](../../../index.MD) > [1.0.15](../../index.MD) >  [Examples](../index.MD) > Example classes
+[Main](../../../index.MD) > [1.0.16](../../index.MD) >  [Examples](../index.MD) > Example classes
 
 # Example classes
 This example classes used in examples

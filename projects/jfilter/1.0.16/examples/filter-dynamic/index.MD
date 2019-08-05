@@ -1,10 +1,10 @@
 ---
 layout: default
 title: JFilter Documentation
-description: Version 1.0.15
+description: Version 1.0.16
 ---
 
-[Main](../../../index.MD) > [1.0.15](../../index.MD) >  [Examples](../index.MD) > Simple field filter
+[Main](../../../index.MD) > [1.0.16](../../index.MD) >  [Examples](../index.MD) > Simple field filter
 
 # Dynamic filter
 Using this type of filters you can create your own filter with custom behaviour.

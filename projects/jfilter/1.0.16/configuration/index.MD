@@ -1,11 +1,11 @@
 ---
 layout: default
 title: JFilter Documentation
-description: Version 1.0.15
-header_title: Configuration 1.0.15
+description: Version 1.0.16
+header_title: Configuration 1.0.16
 ---
 
-[Main](../../index.MD) > [1.0.15](../index.MD) > Configuration
+[Main](../../index.MD) > [1.0.16](../index.MD) > Configuration
 
 # Configuration
 If you need to enable/disable of module or extend list of ObjectMapper serializers, you can fallow next steps

@@ -1,22 +1,22 @@
 ---
 layout: default
 title: JFilter Documentation
-description: Version 1.0.15
+description: Version 1.0.16
 ---
 
-[Main](../../../index.MD) > [1.0.15](../../index.MD) >  [Examples](../index.MD) > XML Schema-based filter configuration
+[Main](../../../index.MD) > [1.0.16](../../index.MD) >  [Examples](../index.MD) > XML Schema-based filter configuration
 
 # XML Schema-based filter configuration
 If you have huge count of field or strategy filters configurations you can configure them in XML file
-XML configuration uses next [DTD](https://rkonovalov.github.io/json-ignore-schema-1.0.dtd) structure file.
+XML configuration uses next [DTD](https://rkonovalov.github.io/jfilter-schema-1.1.dtd) structure file.
 
 * Example of XML configuration file (filter_configuration.xml)
 
 ```xml
 <?xml version='1.0' encoding='utf-8'?>
 <!DOCTYPE config PUBLIC
-        "-//json/json-ignore mapping DTD 1.0//EN"
-        "https://rkonovalov.github.io/json-ignore-schema-1.1.dtd">
+        "-//jfilter mapping DTD 1.0//EN"
+        "https://rkonovalov.github.io/jfilter-schema-1.1.dtd">
 <config>
     <controller class-name="com.example.SessionService">
         <strategy attribute-name="ROLE" attribute-value="USER">
@@ -64,8 +64,8 @@ If you need instead of hide some fields keep them, you can use next configuratio
 ```xml
 <?xml version='1.0' encoding='utf-8'?>
 <!DOCTYPE config PUBLIC
-        "-//json/json-ignore mapping DTD 1.0//EN"
-        "https://rkonovalov.github.io/json-ignore-schema-1.1.dtd">
+        "-//jfilter mapping DTD 1.0//EN"
+        "https://rkonovalov.github.io/jfilter-schema-1.1.dtd">
 <config>
     <controller class-name="com.example.SessionService">
         <strategy attribute-name="ROLE" attribute-value="USER">

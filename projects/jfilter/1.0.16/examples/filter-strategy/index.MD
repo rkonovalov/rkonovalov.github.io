@@ -1,10 +1,10 @@
 ---
 layout: default
 title: JFilter Documentation
-description: Version 1.0.15
+description: Version 1.0.16
 ---
 
-[Main](../../../index.MD) > [1.0.15](../../index.MD) >  [Examples](../index.MD) > Session strategy filter
+[Main](../../../index.MD) > [1.0.16](../../index.MD) >  [Examples](../index.MD) > Session strategy filter
 
 # Session strategy filter
 Since you have read about simple field filtration [link](../filter-field/index.MD) we can continue.
@@ -14,7 +14,6 @@ some fields whose depends from HTTP Session parameters.
 As example we have "signIn" method which responses User class which contains "password" field.
 And we have two types users with privileges/roles called "USER" or "ADMIN". For users with role "ADMIN" we should to send "password" field,
 for users with role "USER" should not. Take a look at the following examples.
-
 
 * Example Service JSON response for users with role "ADMIN"
 

@@ -1,11 +1,11 @@
 ---
 layout: default
 title: JFilter Documentation
-description: Version 1.0.15
-header_title: Getting started 1.0.15
+description: Version 1.0.16
+header_title: Getting started 1.0.16
 ---
 
-[Main](../../index.MD) > [1.0.15](../index.MD) > Getting Started
+[Main](../../index.MD) > [1.0.16](../index.MD) > Getting Started
 
 # Getting started
 For activation of JFilter module just add next annotation

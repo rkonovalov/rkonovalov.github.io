@@ -1,14 +1,18 @@
 ---
 layout: default
 title: JFilter Documentation
-description: Version 1.0.15
-header_title: Release notes 1.0.15
+description: Version 1.0.16
+header_title: Release notes 1.0.16
 ---
 
-[Main](../../index.MD) > [1.0.15](../index.MD) > Release notes
+[Main](../../index.MD) > [1.0.16](../index.MD) > Release notes
 
 # Release notes
 
+## Version 1.0.16
+    * Simplified setting FilterFields into session or request attibutes for using DynamicSessionFilter
+    * Changed artifactId of project from json-ignore to jfilter
+        
 ## Version 1.0.15
     * Added ability to use default Spring MessageConverters MappingJackson2HttpMessageConverter and MappingJackson2XmlHttpMessageConverter instead of FilterConverter
     * Added FilterXmlMapper and FilterObjectMapper for overriding default ObjectMapper and XmlMapper when using default Spring MessageConverters

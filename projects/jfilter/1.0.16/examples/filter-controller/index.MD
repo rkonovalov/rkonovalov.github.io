@@ -1,10 +1,10 @@
 ---
 layout: default
 title: JFilter Documentation
-description: Version 1.0.15
+description: Version 1.0.16
 ---
 
-[Main](../../../index.MD) > [1.0.15](../../index.MD) >  [Examples](../index.MD) > Whole Spring Controller filtration
+[Main](../../../index.MD) > [1.0.16](../../index.MD) >  [Examples](../index.MD) > Whole Spring Controller filtration
 
 # Whole Spring Controller filtration
 If you don't want to add filter annotations to each Service response, you can add annotation on whole Service

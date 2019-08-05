@@ -1,11 +1,11 @@
 ---
 layout: default
 title: JFilter Documentation
-description: Version 1.0.15
-header_title: Requirements 1.0.15
+description: Version 1.0.16
+header_title: Requirements 1.0.16
 ---
 
-[Main](../../index.MD) > [1.0.15](../index.MD) > Requirements
+[Main](../../index.MD) > [1.0.16](../index.MD) > Requirements
 
 ## Requirements
 On this page you can find minimum requirements for module using
