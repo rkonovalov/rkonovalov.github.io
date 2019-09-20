@@ -77,7 +77,7 @@ public class AppConfig {
 }
 ```
 
-## Using default Spring message converters
+## Using default Spring Message Converters
 Also you can use default Spring message converters **MappingJackson2HttpMessageConverter** and **MappingJackson2XmlHttpMessageConverter** instead of **FilterConverter**
 ```java
 @Configuration
@@ -94,3 +94,59 @@ public class AppConfig {
 }
 ```
 JFilter will use default message converters with **FilterObjectMapper** and **FilterXmlMapper** instead of **ObjectMapper** and **XmlMapper**
+
+## Using custom Spring Message Converters
+You can use your own configured Message Converter
+
+```java
+@Configuration
+@EnableWebMvc
+@EnableJsonFilter
+public class AppConfig {
+
+    @Autowired
+    public void configure(FilterConfiguration filterConfiguration) {
+
+        //Add custom Json converter
+        filterConfiguration.withCustomConverter(new MappingJackson2HttpMessageConverter(new FilterObjectMapper(filterConfiguration)));
+
+        //Add custom XML converter
+        filterConfiguration.withCustomConverter(new MappingJackson2XmlHttpMessageConverter(new FilterXmlMapper(filterConfiguration)));
+    }
+
+}
+```
+* **Note**: ObjectMapper in custom Message Converter should be or extended from **FilterObjectMapper** or **FilterXmlMapper**. Otherwise module will raise exception
+
+## Configuring exist ObjectMappers
+You can modify exist ObjectMappers
+
+Configure all ObjectMappers of module
+```java
+@Configuration
+@EnableAsync
+@EnableJsonFilter
+public class AppConfig {
+
+    @Autowired
+    public void configure(FilterConfiguration filterConfiguration) {
+        //Disable WRITE_DATES_AS_TIMESTAMPS feature in all ObjectMappers
+        filterConfiguration.findObjectMapper((mapper) -> mapper.disable(SerializationFeature.WRITE_DATES_AS_TIMESTAMPS));
+    }
+}
+```
+
+Or configure specified ObjectMapper of module by MediaType
+```java
+@Configuration
+@EnableAsync
+@EnableJsonFilter
+public class AppConfig {
+
+    @Autowired
+    public void configure(FilterConfiguration filterConfiguration) {
+          //Disable WRITE_DATES_AS_TIMESTAMPS feature in ObjectMapper which serializes objects for messages with JSON MediaType
+          filterConfiguration.findObjectMapper(MediaType.APPLICATION_JSON, (mapper) -> mapper.disable(SerializationFeature.WRITE_DATES_AS_TIMESTAMPS));
+    }
+}
+```
