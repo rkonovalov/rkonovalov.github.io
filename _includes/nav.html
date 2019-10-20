@@ -6,7 +6,6 @@
         {% if p.menu_title != null %}
         <li>
             <a {% if p.url== page.url %}class="active" {% endif %} href="{{ site.baseurl }}{{ p.url }}">{{ p.menu_title }}</a>
-            <div>{{ p }}</div>
         </li>
         {% endif %}
         {% endif %}
