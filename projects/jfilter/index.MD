@@ -20,4 +20,4 @@ For more information please select required version
   * [Version 1.0.14](1.0.14/index.MD)
   * [Version 1.0.15](1.0.15/index.MD)
   * [Version 1.0.16](1.0.16/index.MD)
-  * [Version 1.0.16](1.0.17/index.MD)
+  * [Version 1.0.17](1.0.17/index.MD)
