@@ -3,6 +3,7 @@ layout: default
 title: JFilter Documentation
 description: Version 1.0.17
 header_title: Diagram of module flowchart 1.0.17
+menu_title: Diagram
 ---
 
 [Main](../../index.MD) > [1.0.17](../index.MD) > Diagram of module flowchart
