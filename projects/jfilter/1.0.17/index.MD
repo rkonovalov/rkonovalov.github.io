@@ -3,6 +3,7 @@ layout: default
 title: JFilter Documentation
 description: Version 1.0.17
 header_title: JFilter 1.0.17
+menu_title: JFilter 1.0.17
 ---
 
 [Main](../index.MD) > 1.0.17

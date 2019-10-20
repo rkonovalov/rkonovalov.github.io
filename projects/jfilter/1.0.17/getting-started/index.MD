@@ -3,6 +3,7 @@ layout: default
 title: JFilter Documentation
 description: Version 1.0.17
 header_title: Getting started 1.0.17
+menu_title: Getting started
 ---
 
 [Main](../../index.MD) > [1.0.17](../index.MD) > Getting Started

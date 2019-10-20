@@ -5,7 +5,7 @@
         {% if p.url contains "/jfilter/1.0.17/" %}
         {% if p.header_title != null %}
         <li>
-            <a {% if p.url== page.url %}class="active" {% endif %} href="{{ site.baseurl }}{{ p.url }}">{{ p.header_title }}</a>
+            <a {% if p.url== page.url %}class="active" {% endif %} href="{{ site.baseurl }}{{ p.url }}">M {{ p.menu_title }}</a>
             <div style="display: none">{{ p }}</div>
         </li>
         {% endif %}

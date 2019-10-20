@@ -3,6 +3,7 @@ layout: default
 title: JFilter Documentation
 description: Version 1.0.17
 header_title: Release notes 1.0.17
+menu_title: Release notes
 ---
 
 [Main](../../index.MD) > [1.0.17](../index.MD) > Release notes
