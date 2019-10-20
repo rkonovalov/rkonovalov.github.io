@@ -2,7 +2,7 @@
     <ul>
         {% if page.url contains "/jfilter/1.0.17/" %}
         {% for p in site.pages %}
-        {% if p.header_title != null %}
+        {% if p.header_title != null & p.url contains "/jfilter/1.0.17/" %}
         <li>
             <a {% if p.url== page.url %}class="active" {% endif %} href="{{ site.baseurl }}{{ p.url }}">A {{
                 p.header_title }}</a>
