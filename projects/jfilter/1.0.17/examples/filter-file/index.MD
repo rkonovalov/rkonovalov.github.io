@@ -2,6 +2,7 @@
 layout: default
 title: JFilter Documentation
 description: Version 1.0.17
+menu_title: XML Schema-based filter configuration
 ---
 
 [Main](../../../index.MD) > [1.0.17](../../index.MD) >  [Examples](../index.MD) > XML Schema-based filter configuration

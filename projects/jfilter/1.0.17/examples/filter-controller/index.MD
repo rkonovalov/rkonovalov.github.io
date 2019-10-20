@@ -2,6 +2,7 @@
 layout: default
 title: JFilter Documentation
 description: Version 1.0.17
+menu_title: Whole Spring Controller filtration
 ---
 
 [Main](../../../index.MD) > [1.0.17](../../index.MD) >  [Examples](../index.MD) > Whole Spring Controller filtration
