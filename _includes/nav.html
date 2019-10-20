@@ -2,7 +2,7 @@
     <ul>
         {% for p in site.pages %}
         <li>
-            <a {% if p.url == page.url %}class="active"{% endif %} href="{{ site.baseurl }}{{ p.url }}">{{ p }}</a>
+            <a {% if p.url == page.url %}class="active"{% endif %} href="{{ site.baseurl }}{{ p.url }}">{{ p.header_title }}</a>
         </li>
         {% endfor %}
     </ul>
