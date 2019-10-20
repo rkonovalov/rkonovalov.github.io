@@ -1,9 +1,9 @@
 <nav class="nav-primary" role="navigation" >
     <ul>
         {% for p in site.pages %}
-        {% if p.header_title != null & page.url.indexOf("/jfilter/1.0.17/") > 0 %}
+        {% if p.header_title != "" & page.url.indexOf("/jfilter/1.0.17/") > 0 %}
         <li>
-            <a {% if p.url == page.url %}class="active"{% endif %} href="{{ site.baseurl }}{{ p.url }}">{{ p.header_title }}</a>
+            <a {% if p.url == page.url %}class="active"{% endif %} href="{{ site.baseurl }}{{ p.url }}">A {{ p.header_title }}</a>
         </li>
         {% endif %}
         {% endfor %}
