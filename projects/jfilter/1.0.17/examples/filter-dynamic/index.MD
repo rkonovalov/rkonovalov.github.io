@@ -121,5 +121,28 @@ Also instead using **session** you can use **request** for passing filter
     }
 ```
 
+# Spring Security filter example
+If your web service configured with Spring Security you can create you own filter as an example below
+
+```java
+    @DynamicFilterComponent
+    public class DynamicSecurityFilter implements DynamicFilterEvent {
+        private static FilterFields adminFilterFields = FilterFields.EMPTY_FIELDS;
+        private static FilterFields userFilterFields = FilterFields.getFieldsBy(Arrays.asList("name", "author"));
+    
+        @Autowired
+        HttpServletRequest request;
+    
+        @Override
+        public void onRequest(Comparator<RequestSession, FilterFields> comparator) {
+            comparator
+                .compare((request -> request.getRequest().isUserInRole("ADMIN")), result -> adminFilterFields)
+                .compare((request -> request.getRequest().isUserInRole("USER")), result -> userFilterFields);
+        }
+    }
+```
+* Make sure your Spring Security configuration has **ADMIN** and **USER** roles as shown in example
+
+
 
 With this filter you get huge space of Service Response customization.
