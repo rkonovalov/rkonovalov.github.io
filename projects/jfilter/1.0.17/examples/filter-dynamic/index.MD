@@ -128,7 +128,7 @@ If your web service configured with Spring Security you can create you own filte
     @DynamicFilterComponent
     public class DynamicSecurityFilter implements DynamicFilterEvent {
         private static FilterFields adminFilterFields = FilterFields.EMPTY_FIELDS;
-        private static FilterFields userFilterFields = FilterFields.getFieldsBy(Arrays.asList("name", "author"));
+        private static FilterFields userFilterFields = FilterFields.getFieldsBy(Arrays.asList("email", "password"));
     
         @Autowired
         HttpServletRequest request;
