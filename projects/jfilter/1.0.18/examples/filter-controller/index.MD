@@ -7,7 +7,7 @@ menu_title: Whole Spring Controller filtration
 
 [Main](../../../index.MD) > [1.0.18](../../index.MD) >  [Examples](../index.MD) > Whole Spring Controller filtration
 
-# Whole Spring Controller filtration
+# Whole Spring REST Web Service controller filtration
 If you don't want to add filter annotations to each Service response, you can add annotation on whole Service
 Let's look at the next example
 

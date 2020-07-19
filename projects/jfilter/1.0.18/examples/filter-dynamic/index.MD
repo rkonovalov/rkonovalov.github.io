@@ -127,7 +127,10 @@ If your web service configured with Spring Security you can create you own filte
 ```java
     @DynamicFilterComponent
     public class DynamicSecurityFilter implements DynamicFilterEvent {
+        //Don't hide any fields from admin
         private static FilterFields adminFilterFields = FilterFields.EMPTY_FIELDS;
+        
+        //Hide some sensitive fields from user
         private static FilterFields userFilterFields = FilterFields.getFieldsBy(Arrays.asList("email", "password"));
     
         @Autowired
@@ -144,5 +147,43 @@ If your web service configured with Spring Security you can create you own filte
 * Make sure your Spring Security configuration has **ADMIN** and **USER** roles as shown in example
 
 
+# Whole Spring REST Web Service controller filtration
+If you don't want to add filter annotations to each Web Service response, you can add annotation on whole Web Service
+Let's look at the next example
 
-With this filter you get huge space of Service Response customization.
+```java
+@DynamicFilter(DynamicSessionFilter.class)
+
+@RestController
+public class SessionService {
+    @Autowired
+    private UserController userController;  
+    
+    @RequestMapping(value = "/users/signIn",
+            params = {"email", "password"}, method = RequestMethod.POST,
+            consumes = {MediaType.APPLICATION_FORM_URLENCODED_VALUE},
+            produces = {MediaType.APPLICATION_JSON_VALUE})            
+    public User signIn(@RequestParam("email") String email, @RequestParam("password") String password) {
+        return userController.signInUser(email, password);
+    }
+}
+```
+
+# Combining Dynamic with other types filtration
+From 1.0.18 version you can use dynamic filter along with other type of filtration
+
+```java
+    @DynamicFilter(DemoIdFilter.class)
+    @FieldFilterSetting(fields = {"id", "password"})
+    ...
+    @RequestMapping(value = "/users/signIn",
+            params = {"email", "password"}, method = RequestMethod.POST,
+            consumes = {MediaType.APPLICATION_FORM_URLENCODED_VALUE},
+            produces = {MediaType.APPLICATION_JSON_VALUE})            
+    public User signIn(@RequestParam("email") String email, @RequestParam("password") String password) {
+        return userController.signInUser(email, password);
+    } 
+```
+
+# In conclusion
+With this filter you have a huge space of REST Web Service Response filter customization.
