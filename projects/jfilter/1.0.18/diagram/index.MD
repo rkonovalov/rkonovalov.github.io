@@ -10,4 +10,4 @@ menu_title: Diagram
 
 This is diagram of JFilter library flowchart.
 
-![Diagram](/assets/images/jfilter-diagram-1.0.17.svg)
+![Diagram](/assets/images/jfilter-diagram-1.0.18.svg)
